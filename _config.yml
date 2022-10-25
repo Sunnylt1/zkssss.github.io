@@ -1,4 +1,4 @@
-# Site settings 配置站点
+# Site settings
 title: 'zkssss's Developement Blog'
 description: '잡동사니 보관소'
 keyword: 'zkssss, java'
@@ -29,11 +29,11 @@ avatar: '/assets/img/profile.png'
 search: true
 
 # Night mode
-nightMode: true
+nightMode: false
 
 # Comments
 comments:
-  disqus: false
+  disqus: true
   disqus_url: 'https://liaokeyu.disqus.com/embed.js'
 
 # MathJax
@@ -53,8 +53,6 @@ postPatterns: 'circuitBoard'
 # url: email, weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
 sns:
   email: 'zack122193@gmail.com'
-  facebook: ''
-  instagram: '//www.instagram.com/'
   github: '//github.com/zkssss'
 
 # Tags
