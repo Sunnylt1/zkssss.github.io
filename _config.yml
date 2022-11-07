@@ -1,7 +1,7 @@
 # Site settings
 title: 'zkssss Developement Blog'
 description: '잡동사니 보관소'
-keyword: ''
+keyword: 'zkssss, java'
 url: 'https://zkssss.github.io'
 
 # when build blog on server, if you don't need baseurl, you should leave this value blank.
