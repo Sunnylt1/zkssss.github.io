@@ -3,6 +3,9 @@
 {% include post-head.html %}
 
 <body>
+  <!--[if lt IE 10]>
+<div class="alert-danger" role="alert">你的浏览器实在太太太旧了，放学别走，升级完浏览器再说！<a target="_blank" class="alert-link" href="http://browsehappy.com">立即升级</a></div>
+<![endif]-->
   <input id="nm-switch" type="hidden" value="{{ site.nightMode }}"> {% include header.html %}
 
   <header
@@ -114,8 +117,8 @@
           {% endif %}
         {% endfor %}
       ],
-      wechatQrcodeTitle: "위챗 모멘트에 공유",
-      wechatQrcodeHelper: '<p>코드 스캔 후 우측 상단 클릭</p><p>모멘트에 공유</p>'
+      wechatQrcodeTitle: "分享到微信朋友圈",
+      wechatQrcodeHelper: '<p>扫码后点击右上角</p><p>将本文分享至朋友圈</p>'
     });
   </script>
 
